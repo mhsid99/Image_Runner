@@ -9,3 +9,14 @@ Image Runner is a FullStack responsive MERN Social media application which uses 
 # Working Demo: 
 https://image-runner.netlify.app/
 
+#Working
+
+so the app is divided into 2 parts, frontend and backend.<br/>
+the frontend is on react which is created using vite instead of creat-react-app.</br>
+css is built on tailwind framework, most popular one for css</br>
+we need to save the files generated to our local machine, hence file-saver is installed</br>
+Routing is an essential technique for navigation among pages on a website based on user requests and actions, hence for that purpose, we will use react-router-dom. The primary functionality of react-router-dom is implementing dynamic routing in web applications and supports component-based routing.</br>
+The apps functionality is created into components which are built separately, for e.g. this app has a 'card' for displaying  images, 'form' for storing information
+etc..</br>
+React state hooks are used in multiple places, for example to change the state of the data, if it is loading or not, so we can display the loader, searchbar is empty or not, for autofilling purposes and form for taking in and storing data</br>
+the app consists of 2 pages, homepage, where all the data is renders in a card format and createPost, where the image is generated.
