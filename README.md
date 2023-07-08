@@ -28,5 +28,11 @@ We will use the nodemon package to make sure that the backend is always running.
 installing packages for backend: Cloudinary, cors, dotenv, express, mongoose, nodemon, openai.</br>
 Dotenv is used to get all the environment variables from the `.env` file which contains all api keys and values</br>
 Express.js is a small framework that works on top of Node.js web server functionality to simplify its APIs and makes it easier to organize your application’s functionality with middleware and routing.</br>
+Middleware functions are functions that have access to the request object ( req ), the response object ( res ), and the next function in the application's request-response cycle. The next function is a function in the Express router which, when invoked, executes the middleware succeeding the current middleware.</br>
+Asynchronous programming is a technique that enables your program to start a potentially long-running task and still be able to be responsive to other events while that task runs, rather than having to wait until that task has finished. Once that task has finished, your program is presented with the result.</br>
+mongodb is connected to upload and retrieve AI generated images in the form of string.</br>
+from the backend, there are 2 routes, post-route which uploads, retrieves data from mongoDB and cloudinary and dall-e-route which generates ai-images with the help of api.</br>
+Cloudinary: Cloudinary's Node. js SDK provides simple, yet comprehensive image and video upload, transformation, optimization, and delivery capabilities that you can implement using code. Basically, we use it to store images because it's faster!</br>
+
 
 
